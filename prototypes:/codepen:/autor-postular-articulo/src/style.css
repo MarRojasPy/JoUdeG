@@ -1,0 +1,137 @@
+/* Estilos Generales */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #030c15;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #1d80bb;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+/* Contenido Principal */
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #1d80bb;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #555555;
+}
+
+p {
+    font-size: 1rem;
+    color: #666666;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #1d80bb;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #145d85;
+}
+
+.btn-secondary {
+    background-color: #2e4859;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #1e2e38;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #030c15;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Formulario */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #030c15;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/* Seguimiento de manuscritos */
+.seguimiento-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.seguimiento-lista li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #030c15;
+}
