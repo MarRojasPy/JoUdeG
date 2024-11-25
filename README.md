@@ -1,34 +1,69 @@
-# **JoUdeG - Gestión Editorial para Revistas Científicas**
+# JoUdeG: Proyecto de Gestión y Publicación Digital
 
-Este repositorio contiene los prototipos y módulos desarrollados como parte del proyecto **JoUdeG**, una aplicación web diseñada para optimizar y digitalizar los procesos editoriales de revistas científicas de la Universidad de Guadalajara.
+¡Bienvenido/a al repositorio oficial de **JoUdeG**! Este repositorio documenta todos los elementos clave y herramientas utilizadas en el desarrollo de este proyecto, desde el diseño inicial hasta la implementación del flujo de trabajo editorial. 
 
-## **Descripción del Proyecto**
-JoUdeG busca atender las principales problemáticas en la gestión editorial, como la eficiencia, transparencia y accesibilidad, mediante herramientas tecnológicas adaptadas al contexto académico. La solución incluye funcionalidades clave que simplifican tareas como la asignación de revisores, el seguimiento del flujo editorial y la generación de estadísticas en tiempo real.
+---
 
-## **Características Principales**
-- **Gestión de Manuscritos:** Registro, evaluación y seguimiento de artículos enviados.
-- **Asignación de Dictaminadores:** Automatización del proceso de asignación y evaluación por pares ciegos.
-- **Seguimiento del Proceso Editorial:** Flujos claros para autores, editores y revisores.
-- **Estadísticas:** Visualización de métricas relacionadas con el rendimiento editorial.
-- **Acceso Interactivo:** Interfaz intuitiva diseñada para usuarios con diferentes roles (autores, dictaminadores, editores y lectores).
+## 📂 Estructura del Repositorio
 
-## **Prototipos y Recursos Incluidos**
-- Diagramas UML que describen el flujo de trabajo del sistema.
-- Mockups de la interfaz de usuario.
-- Repositorio de código no funcional como base para desarrollos futuros.
-- Documentación técnica y funcional.
+### **1. Documentación (`docs/`)**
+- **Diagramas de arquitectura**: Representación visual de la arquitectura del software.
+- **Diagramas UML**: Diagramas de clases, secuencia y casos de uso.
+- **Customer Journey Maps**: Mapas de experiencia del cliente.
 
-## **Tecnologías Utilizadas**
-- Diseño conceptual basado en **arquitectura de software en capas** y **microservicios**.
-- Prototipado de interfaz desarrollado en herramientas como Figma y Canva.
-- Diagramas UML para modelar flujos de trabajo.
+### **2. Diseño (`design/`)**
+- **Identidad Visual**: Logotipo, tipografía, colores y guía de identidad.
+- **Mockups**: Imágenes estáticas del prototipo.
+- **Prototipos Interactivos**: Prototipo funcional en [CodePen](design/prototypes/prototype-codepen-link.md).
 
-## **Instrucciones de Uso**
-Este repositorio está diseñado para servir como referencia y base para el desarrollo colaborativo. Actualmente, incluye:
-1. Prototipos de interfaz de usuario.
-2. Diagramas y especificaciones funcionales.
-3. Código inicial no funcional alojado en GitHub.
+### **3. Flujo de Trabajo (`workflows/`)**
+- **Proceso editorial**: Documentos relacionados con convocatorias y dictámenes editoriales.
+- **Google Workspace**: 
+  - **Google Sheets**: Seguimiento de proyectos y calendario de publicaciones.
+  - **Google Forms**: Formularios de ejemplo utilizados en el flujo de trabajo.
 
-### **Cómo Clonar el Repositorio**
-```bash
-git clone https://github.com/usuario/JoUdeG.git
+---
+
+## 📜 Recursos Clave
+
+### Documentación
+- [Diagrama de arquitectura](docs/architecture-diagram.png)
+- [Diagramas UML](docs/uml-diagrams/)
+- [Mapa de experiencia del cliente](docs/customer-journey-map.pdf)
+
+### Diseño
+- [Identidad visual](design/visual-identity/)
+- [Mockups](design/mockups/)
+- [Prototipo interactivo](design/prototypes/prototype-codepen-link.md)
+
+### Flujo de Trabajo Editorial
+- [Convocatoria y dictamen editorial](workflows/editorial-process/)
+- [Plantillas de Google Sheets](workflows/google-sheets/)
+- [Formularios de Google Forms](workflows/google-forms/)
+
+---
+
+## 🤝 Cómo Contribuir
+
+Si deseas contribuir al proyecto, sigue estos pasos:
+1. Realiza un **fork** del repositorio.
+2. Crea una nueva rama: `git checkout -b mi-rama`.
+3. Realiza los cambios necesarios y haz un commit: `git commit -m "Descripción del cambio"`.
+4. Sube los cambios: `git push origin mi-rama`.
+5. Abre un Pull Request en el repositorio principal.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia [MIT](LICENSE). ¡Siéntete libre de usar, mejorar y compartir este trabajo!
+
+---
+
+## 📨 Contacto
+
+Para preguntas, sugerencias o colaboración, puedes contactarnos a través del correo electrónico: [mar.rojas1181@alumnos.udg.mx](mailto:mar.rojas1181@alumnos.udg.mx).
+
+---
+
+¡Gracias por visitar el repositorio de **JoUdeG**!
